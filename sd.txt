@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dela Porto</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <style>
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            overflow-x: auto;
+           
+        }
+
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 2%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-white position-relative">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand text-secondary">
+                <h1 class="display-4 text-uppercase">DELA PORTO</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ml-auto py-0 pr-3 border-right">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="project.html" class="nav-item nav-link active">Projects</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div class="page-header container-fluid bg-primary d-flex flex-column align-items-center justify-content-center">
+        <h1 class="display-3 text-uppercase mb-3">Projects</h1>
+        <div class="d-inline-flex text-white">
+            <h6 class="text-uppercase m-0"><a class="text-white" href="index.html">Home</a></h6>
+            <h6 class="m-0 px-3">/</h6>
+            <h6 class="text-uppercase m-0">Projects</h6>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Portfolio Start -->
+    <div class="image-gallery owl-carousel">
+        <a href="img/tugas1.png" data-lightbox="image-gallery"><img src="img/tugas1.png" alt="Image 1"></a>
+        <a href="img/tugas2.png" data-lightbox="image-gallery"><img src="img/tugas2.png" alt="Image 2"></a>
+        <a href="img/tugas3.png" data-lightbox="image-gallery"><img src="img/tugas3.png" alt="Image 3"></a>
+        <a href="img/tugas1.png" data-lightbox="image-gallery"><img src="img/tugas1.png" alt="Image 4"></a>
+        <a href="img/tugas2.png" data-lightbox="image-gallery"><img src="img/tugas2.png" alt="Image 5"></a>
+        <a href="img/tugas3.png" data-lightbox="image-gallery"><img src="img/tugas3.png" alt="Image 6"></a>
+        <!-- Add more images here -->
+    </div>
+
+    <center>
+        <a href="https://drive.google.com/drive/folders/17FWZnfy25Snn6sa_a5r_1-Yg0leSJ5yj?usp=share_link" class="btn btn-dark text-uppercase mt-1 py-3 px-5 fab fa-google-drive"> Lihat Selengkapnya</a>
+    </center>
+    <!-- Portfolio End -->
+
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-md-5" style="margin-top: 90px;">
+    <div class="row pt-5">
+        <div class="col-lg-4 col-md-6 mb-5">
+            <a href="index.html" class="navbar-brand">
+                <h1 class="m-0 mt-n2 text-white display-4">DELA PORTO</h1>
+            </a>
+            <h6 class="text-uppercase text-white py-2">SOCIAL MEDIA</h6>
+            <div class="d-flex justify-content-start">
+                <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="https://wa.me/+6281255935697"><i class="fab fa-whatsapp"></i></a>
+                <a class="btn btn-lg btn-primary btn-lg-square" href="https://www.instagram.com/delaseptianissrty/?hl=id"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-5">
+            <h4 class="text-uppercase text-white mb-4">Get In Touch</h4>
+            <p><i class="fa fa-map-marker-alt text-white mr-2"></i>Jalan Pantai Kerobokan, Perumahan
+            </p>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+<!-- JavaScript Libraries -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+
+<!-- Custom JavaScript -->
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
